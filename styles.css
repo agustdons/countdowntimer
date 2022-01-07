@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    color: rgb(219, 168, 126);
+}
+
+.myVideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.section{
+    position: fixed;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 5rem;
+    display: flex;
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.unidades {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.3rem;
+}
+
+.icons {
+    position: absolute;
+    top: 90%;
+    color: #000;
+}
+
+.fas{
+    color: #000;
+}
+
+.fas:hover{
+    background-color: rgb(219, 168, 126) ;
+    padding: 2px;
+}
+
+#myBtn{
+    background-color: rgb(219, 168, 126);
+}
+
+/* Tooltip */
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 2px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    left: 30px;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    left: 35px;
+  }
+
+  p{
+    text-shadow: 2px 2px 0 #fff, 4px 4px 0 #fff;
+  }

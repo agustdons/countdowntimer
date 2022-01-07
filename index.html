@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Temporizador</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="scripts.js" defer></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    </head>
+    <body>
+        <video autoplay volume loop id="myVideo" class="myVideo" src="resources/video4.mp4"></video>
+        
+        <section class="section">
+                <h1>Vísperas de Año Nuevo</h1>
+
+            <div class="countdown-container">
+                <div class="countdown-el days-c">
+                    <p class="unidades" id="dias">0</p>
+                    <span>días</span>
+                </div>
+                
+                <div class="countdown-el hours-c">
+                    <p class="unidades" id="horas">0</p>
+                    <span>horas</span>
+                </div>
+
+                <div class="countdown-el mins-c">
+                    <p class="unidades" id="mins">0</p>
+                    <span>minutos</span>
+                </div>
+            
+                <div class="countdown-el seconds-c">
+                    <p class="unidades" id="segundos">0</p>
+                    <span>segundos</span>
+                </div>
+            </div>
+        </section>
+
+        <div class="icons tooltip">
+            <span class="tooltiptext">Pausar video</span>
+            <button id="myBtn" onclick="myFunction()"><i class='fas fa-pause'></i></button>
+            <!-- <button>volume bottom</button> -->
+        </div>
+    </body>
+</html>
